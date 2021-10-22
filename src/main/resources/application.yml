@@ -9,7 +9,6 @@ spring:
     change-log: "classpath:db/master.xml"
     enabled: false
 
-
 logging:
   level:
     org.springframework.web: ${LOG_LEVEL:INFO}

@@ -44,4 +44,16 @@
         <sqlFile path="1.0.1/sql/10_table_department_employee.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
+    <changeSet id="2021-10-23 15:13:00" author="ioromanov">
+        <sqlFile path="1.0.1/sql/11_table_teacher.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2021-10-23 15:16:00" author="ioromanov">
+        <sqlFile path="1.0.1/sql/12_table_teacher_leading_discipline.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2021-10-23 15:42:00" author="ioromanov">
+        <sqlFile path="1.0.1/sql/13_table_discipline.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
 </databaseChangeLog>

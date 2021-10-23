@@ -7,6 +7,9 @@ CREATE TABLE if not exists direction
     profession_code varchar(50) not null,
     advanced_group_code varchar(50),
     graduation_code varchar(50) not null
+    first_name varchar(100) not null,
+    last_name varchar(100) not null,
+    patronymic varchar(100) not null,
     );
 
 alter table direction

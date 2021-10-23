@@ -5,11 +5,11 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
     <changeSet id="2021-10-23 12:11:00" author="ksamorodov">
-        <sqlFile path="1.0.1/sql/01__table_direction.sql" relativeToChangelogFile="true"/>
+        <sqlFile path="1.0.1/sql/01_table_direction.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
     <changeSet id="2021-10-23 12:12:00" author="ksamorodov">
-        <sqlFile path="1.0.1/sql/02__student_group.sql" relativeToChangelogFile="true"/>
+        <sqlFile path="1.0.1/sql/02_student_group.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
     <changeSet id="2021-10-23 12:13:00" author="ksamorodov">
@@ -21,7 +21,15 @@
     </changeSet>
 
     <changeSet id="2021-10-23 12:47:00" author="ksamorodov">
-        <sqlFile path="1.0.1/sql/05_table_department.sql" relativeToChangelogFile="true"/>
+        <sqlFile path="1.0.1/sql/05_table_cathedra.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2021-10-23 13:26:00" author="ksamorodov">
+        <sqlFile path="1.0.1/sql/06_table_deans_office.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2021-10-23 13:27:00" author="ksamorodov">
+        <sqlFile path="1.0.1/sql/07_table_department.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
 </databaseChangeLog>

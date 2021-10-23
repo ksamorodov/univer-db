@@ -1,1 +1,0 @@
-drop table if exists account_entity_liquibase;

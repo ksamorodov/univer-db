@@ -4,11 +4,16 @@
         xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <changeSet id="2020-05-25 11:11:00" author="kbulychev">
-        <sqlFile path="1.0.1/sql/01__create_account_table.sql" relativeToChangelogFile="true"/>
-        <rollback>
-            <sqlFile path="1.0.1/sql/rollback/01__create_account_table_rollback.sql" relativeToChangelogFile="true"/>
-        </rollback>
+    <changeSet id="2021-10-23 12:11:00" author="ksamorodov">
+        <sqlFile path="1.0.1/sql/01__table_direction.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2021-10-23 12:12:00" author="ksamorodov">
+        <sqlFile path="1.0.1/sql/02__student_group.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2021-10-23 12:13:00" author="ksamorodov">
+        <sqlFile path="1.0.1/sql/03_table_student.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
 </databaseChangeLog>

@@ -56,4 +56,16 @@
         <sqlFile path="1.0.1/sql/13_table_discipline.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
+    <changeSet id="2021-10-23 16:02:00" author="ksamorodov">
+        <sqlFile path="1.0.1/sql/14_table_lesson_protocol.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2021-10-23 16:03:00" author="ksamorodov">
+        <sqlFile path="1.0.1/sql/15_table_education_process.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2021-10-23 16:04:00" author="ksamorodov">
+        <sqlFile path="1.0.1/sql/16_table_students_study_discipline.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
 </databaseChangeLog>

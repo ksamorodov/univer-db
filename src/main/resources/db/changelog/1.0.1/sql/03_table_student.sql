@@ -4,7 +4,9 @@ CREATE TABLE if not exists student
 (
     student_id  bigint unique not null default nextval('student_seq' :: regclass),
     group_id bigint not null references student_group(group_id),
-    fio varchar(300) not null,
+    first_name varchar(100) not null,
+    last_name varchar(100) not null,
+    patronymic varchar(100) not null,
     admission_date date not null,
     gradebook varchar(20) not null
     );

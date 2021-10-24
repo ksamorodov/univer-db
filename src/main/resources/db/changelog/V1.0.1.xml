@@ -68,4 +68,8 @@
         <sqlFile path="1.0.1/sql/16_table_students_study_discipline.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
+    <changeSet id="2021-10-23 22:04:00" author="ioromanov">
+        <sqlFile path="1.0.1/sql/17_table_treatments.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
 </databaseChangeLog>
